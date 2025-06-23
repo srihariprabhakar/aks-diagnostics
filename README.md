@@ -13,9 +13,15 @@ The script performs the following checks:
 
 ---
 
-## 🚀 Quick Start
+Feel free to contribute and edit validation requirements as needed.
+The first curl command automatically downloads the script directly onto your AKS cluster + runs it, the second downloads and requires execute permissions:
 
-### Option 1: Run Immediately
 
 ```bash
 curl -s https://raw.githubusercontent.com/srihariprabhakar/aks-diagnostics/main/aks-diagnostics.sh | bash
+
+
+curl -O https://raw.githubusercontent.com/srihariprabhakar/aks-diagnostics/main/aks-diagnostics.sh
+chmod +x aks-diagnostics.sh
+./aks-diagnostics.sh
+
